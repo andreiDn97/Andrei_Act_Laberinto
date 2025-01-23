@@ -5,8 +5,7 @@ using UnityEngine;
 public class MovimientoJugador : MonoBehaviour
 {
     public float giro = 100f; 
-    public float velocidad = 25f;  
-
+    public float velocidad = 25f;
     private CharacterController characterController;
 
     void Start()
@@ -25,4 +24,5 @@ public class MovimientoJugador : MonoBehaviour
 
         characterController.Move(movement);
     }
+
 }
