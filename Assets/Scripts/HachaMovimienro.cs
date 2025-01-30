@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HachaMovimienro : MonoBehaviour
+public class HachaMovimiento : MonoBehaviour
 {
     public float velocidad = 3f;
     public float distancia = 5f;
-    public Transform zonaRespawn;
+    public Transform ZonaRespawn;
 
     private Vector3 puntoInicial;
     private Vector3 destino;
@@ -19,7 +19,7 @@ public class HachaMovimienro : MonoBehaviour
         destino = puntoInicial + Vector3.right * distancia;
     }
 
-   
+
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, destino, velocidad * Time.deltaTime);
@@ -44,7 +44,9 @@ public class HachaMovimienro : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.transform.position = zonaRespawn.position;
+            other.transform.position = ZonaRespawn.position;
         }
     }
 }
+
+    

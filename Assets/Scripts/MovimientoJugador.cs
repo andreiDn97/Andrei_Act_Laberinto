@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovimientoJugador : MonoBehaviour
 {
-    public float giro = 100f; 
+    public float giro = 100f;
     public float velocidad = 25f;
     private CharacterController characterController;
 
@@ -15,8 +15,8 @@ public class MovimientoJugador : MonoBehaviour
 
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal"); 
-        float vertical = Input.GetAxis("Vertical");     
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
         transform.Rotate(0, horizontal * giro * Time.deltaTime, 0);
 
@@ -24,5 +24,6 @@ public class MovimientoJugador : MonoBehaviour
 
         characterController.Move(movement);
     }
+
 
 }

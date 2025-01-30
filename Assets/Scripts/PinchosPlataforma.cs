@@ -6,7 +6,7 @@ public class PinchosPlataforma : MonoBehaviour
 {
     public float velocidad = 3f;
     public float distancia = 3f;
-    public Transform zonaRespawn;
+    public Transform ZonaRespawn;
 
     private Vector3 puntoInicial;
     private Vector3 destino;
@@ -42,9 +42,9 @@ public class PinchosPlataforma : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            other.transform.position = zonaRespawn.position;
+            other.transform.position = ZonaRespawn.position;
         }
     }
 }
