@@ -395,7 +395,7 @@ PrefabInstance:
       objectReference: {fileID: 942803384}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: velocidad
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
@@ -589,6 +589,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
+      propertyPath: velocidad
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: zonaRespawn
       value: 
@@ -1348,7 +1352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200689e900455c543a3ce33161c70952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 2
+  velocidad: 3
   distancia: 5
   ZonaRespawn: {fileID: 1708479148}
 --- !u!65 &67829888
@@ -4014,8 +4018,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -773.3043, y: 306.20734}
-  m_SizeDelta: {x: -1751.9757, y: -781.8431}
+  m_AnchoredPosition: {x: -747, y: 237.2}
+  m_SizeDelta: {x: -1785.252, y: -688.1686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &188335343
 MonoBehaviour:
@@ -8022,6 +8026,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2456755635396039184, guid: 88f3f81357001bc428250c63f631537a, type: 3}
+      propertyPath: distancia
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456755635396039184, guid: 88f3f81357001bc428250c63f631537a, type: 3}
       propertyPath: zonaRespawn
       value: 
       objectReference: {fileID: 1708479148}
@@ -8485,6 +8493,10 @@ PrefabInstance:
       propertyPath: ObjEnemigo
       value: 
       objectReference: {fileID: 942803384}
+    - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
+      propertyPath: velocidad
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
       value: 
@@ -10126,6 +10138,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 942803384}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
+      propertyPath: velocidad
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
       value: 
       objectReference: {fileID: 1708479148}
@@ -11032,6 +11048,10 @@ PrefabInstance:
       propertyPath: ObjEnemigo
       value: 
       objectReference: {fileID: 942803384}
+    - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
+      propertyPath: velocidad
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
       value: 
@@ -13165,6 +13185,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
+      propertyPath: velocidad
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: zonaRespawn
       value: 
       objectReference: {fileID: 1708479148}
@@ -13383,7 +13407,7 @@ PrefabInstance:
       objectReference: {fileID: 942803384}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: velocidad
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
@@ -16568,7 +16592,7 @@ PrefabInstance:
       objectReference: {fileID: 942803384}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: velocidad
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
@@ -20671,6 +20695,10 @@ PrefabInstance:
       propertyPath: ObjEnemigo
       value: 
       objectReference: {fileID: 942803384}
+    - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
+      propertyPath: velocidad
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
       value: 
@@ -27269,7 +27297,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: velocidad
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: zonaRespawn
@@ -28179,7 +28207,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: velocidad
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5942385878151385653, guid: be895a460792b05469371abaa9045a36, type: 3}
       propertyPath: zonaRespawn
@@ -32621,7 +32649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200689e900455c543a3ce33161c70952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 3
+  velocidad: 4
   distancia: 5
   ZonaRespawn: {fileID: 1708479148}
 --- !u!65 &1369600859
@@ -42901,7 +42929,7 @@ PrefabInstance:
       objectReference: {fileID: 942803384}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: velocidad
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6249709257538947234, guid: 8d04081294a68f74aa6b5bf9afbbc719, type: 3}
       propertyPath: ZonaRespawn
@@ -43311,8 +43339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 579.4823, y: 324.03995}
-  m_SizeDelta: {x: -1739.4117, y: -779.7}
+  m_AnchoredPosition: {x: 614.9, y: 237.19621}
+  m_SizeDelta: {x: -1794.6306, y: -677.262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1827266769
 MonoBehaviour:
